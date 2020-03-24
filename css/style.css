@@ -92,6 +92,9 @@ form input{
     border-left: 5px solid transparent;
     margin: 8px 0;
     padding: 0 20px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
 }
 
 form input::placeholder,
@@ -130,6 +133,9 @@ form textarea{
     margin: 8px 0 ;
     padding: 20px;
     resize: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
 }
 
 form .button-send{
