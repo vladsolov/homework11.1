@@ -1,0 +1,205 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: #262626;
+    margin: 0 0 27px 0;
+}
+
+.main-wrapper{
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    padding: 117px 0;
+    box-sizing: border-box;
+    min-width: 1000px;
+}
+
+.mainer{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.mainer .describe-Contact{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    width: 380px;
+    margin: 0 auto 33px auto;
+    display: block;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-wrapper{
+    width: 500px;
+}
+
+.form{ 
+    display: block;
+}
+
+form input{
+    width: 500px;
+    min-height: 50px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+    border: none;
+    border-left: 5px solid transparent;
+    margin: 8px 0;
+    padding: 0 20px;
+}
+
+form input::placeholder,
+form textarea::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+form input:focus,
+form input:valid,
+form textarea:focus,
+form textarea:valid{
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+form input:hover,
+form textarea:hover,
+form .button-send:hover{
+    opacity: 1;
+}
+
+form textarea{
+    width: 500px;
+    min-height: 250px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+    border: none;
+    border-left: 5px solid transparent;
+    margin: 8px 0 ;
+    padding: 20px;
+    resize: none;
+}
+
+form .button-send{
+    width: 100px;
+    height: 50px;
+    margin: 20px 0 0 400px;
+    background-color: #00c4c4;
+    border: 5px solid transparent;
+    opacity: 0.5;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.cell{
+    margin: 20px;
+    text-align: left;
+}
+.cell .head{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #262626;
+    
+}
+
+.cell .exmpl{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #262626;
+}
+
+footer{
+    min-width: 1170px;
+    background-color: #262626;
+    height: 90px;
+    box-sizing: border-box;
+    padding: 0 165px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .company{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b9b9b9;
+    display: block;
+    align-self: center;
+}
+
+footer .logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #b9b9b9;
+    display: block;
+    align-self: center;
+}
+
+footer .author{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #b9b9b9;
+    display: block;
+    align-self: center;
+}
+
+footer .love{
+    font-weight: bold;
+    color: #f12b55;
+}
